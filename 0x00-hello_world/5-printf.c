@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
+/**
  * main -Entry
+ *
  * Return: 0 always
  */
 int printf(const char *format, ...);
