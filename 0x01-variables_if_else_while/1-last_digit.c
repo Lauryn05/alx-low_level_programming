@@ -6,15 +6,18 @@
  *
  * Return: Always 0
  */
-int main(void){
-
+int main(void)
+{
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 5) {
+
+	printf("Last digit of %d is ", n);
+	int last_digit = abs(n % 10);
+	if (last_digit > 5) {
 		printf("greater than 5\n");
-	} else if (n == 0) {
+	} else if (last_digit == 0) {
 		printf("0\n");
 	} else {
 		printf("less than 6 and not 0\n");
