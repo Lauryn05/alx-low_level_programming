@@ -8,11 +8,11 @@ int main(){
 	char ch;
 
 	for(ch = 'a';ch <= 'z';ch++) {
-		if(ch != e && ch != q){
-			printchar(ch);
+		if(ch != 'e' && ch != 'q'){
+			putchar(ch);
 		}
 	}
-printchar('\n');
+putchar('\n');
 
 return (0);
 }
