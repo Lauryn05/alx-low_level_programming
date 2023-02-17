@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 /** 
  * main - Entry point
  *
@@ -7,12 +8,9 @@
  */
 int main() {
 	int n;
-	time_t t;
-	// Get seconds of current time
-	t = time(NULL);
-	// Use the last two digits of the current time as the "random" number
-	n = t % 200 - 100;
-	// Check if the number is positive, negative, or zero by getting a range between 0-199 and minusing 100
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n > 0) {
 		printf("%d is positive\n", n);
 	} else if (n == 0) {
