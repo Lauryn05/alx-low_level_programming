@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - display alphabet
  *
- * Return: 0 Always
+ * Return: void
  */
 void print_alphabet(void)
 {
 	char c = 'a';
-	
+
 	while (c <= 'z')
 	{
 		_putchar(c);
