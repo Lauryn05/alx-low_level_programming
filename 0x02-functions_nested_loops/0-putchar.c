@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 /**
  * main- Entry point
  *
@@ -7,16 +6,15 @@
  */
 int main(void)
 {
-	char word[] = "_putchar";
-	int i, j;
-
-	for (i = 0; i < 1; i++)
-	{
-		for (j = 0; j < sizeof(word) - 1; j++)
-		{
-			putchar(word[j]);
-		}
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
-	}
-	return (0);
+
+	return(0);
 }
