@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int x, y=0;
+	int x, y = 0;
 
 	while (x < 1024)
 	{
@@ -17,4 +17,4 @@ int main(void)
 	}
 	printf("%d\n", y);
 	return (0);
-}		
+}
