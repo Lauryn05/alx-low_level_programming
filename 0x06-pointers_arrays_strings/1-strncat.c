@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: string to be appended upon
  * @src: string to be appended to dest
  * @n: number of bytes from src to be appended to dest
  * Return: pointer to resulting string dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int index = 0, dest_len = 0;
 

@@ -5,7 +5,7 @@
  * _strcat - Concecrates 2 strings
  * @dest: destination string
  * @src: source string
- * Pointer to resulting string dest
+ * Return: Pointer to resulting string dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 
 	while (dest[dlen])
 	{
-		dlen++;	
+		dlen++;
 	}
 	for (i = 0; src[1] != 0; i++)
 	{
