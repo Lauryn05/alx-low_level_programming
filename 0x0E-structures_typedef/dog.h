@@ -7,7 +7,7 @@
  * @age: Second member
  * @owner: Third member
  *
- * Description: struct that enables entry of the dog name, dog age an the dog's owner
+ * Description: struct that enables entry of the name, age and the owner
  */
 struct dog
 {
